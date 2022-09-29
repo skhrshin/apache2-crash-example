@@ -1,0 +1,5 @@
+LanguagePriority en ja de
+AddHandler type-map .var
+AddHandler cgi-script .cgi
+Options ExecCGI MultiViews
+MultiviewsMatch Handlers Filters

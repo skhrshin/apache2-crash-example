@@ -1,0 +1,7 @@
+version: "3"
+services:
+  httpd:
+    build: ./httpd
+    privileged: true
+    ports:
+      - "127.0.0.1:8081:80"
